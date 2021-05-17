@@ -4,6 +4,7 @@ A model to extract key address elements from unformatted Indonesia addresses.
 ## Table of Contents
 - [General Info](#general-info)
 - [Technologies](#technologies)
+- [Features](#features)
 - [Project Status](#project-status)
 - [Room for Improvement](#room-for-improvement)
 - [Acknowledgements](#acknowledgements)
@@ -20,6 +21,16 @@ For more information, please refer to this [Kaggle page](https://www.kaggle.com/
 Project is created with:
 - Python version 3.8.5
 - Tensorflow version 2.4.1
+
+## Features
+- Creating binary labels of addresses
+- Tokenization and Padding of addresses
+- Creating dictionary of short-form and long-form words
+- Keras Sequential model with the following layers:
+	- Embedding
+	- 2 Bidirectional LSTM layers
+	- Flatten
+	- 2 Dense layers
 
 ## Project Status
 Project is _in progress_.
