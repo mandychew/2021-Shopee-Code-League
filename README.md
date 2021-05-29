@@ -24,6 +24,8 @@ Project is created with:
 
 ## Features
 - Creating binary labels of addresses
+- Created dictionary of short form and full words in addresses
+	- prediction will have the full word if the raw address uses short form words
 - Tokenization and Padding of addresses
 - Creating dictionary of short-form and long-form words
 - Keras Sequential model with the following layers:
