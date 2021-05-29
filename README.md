@@ -1,5 +1,5 @@
 # Address Elements Extraction
-A model to extract key address elements from unformatted Indonesia addresses.
+An AI model to extract key address elements from unformatted Indonesian addresses.
 
 ## Table of Contents
 - [General Info](#general-info)
