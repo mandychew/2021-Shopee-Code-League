@@ -40,7 +40,6 @@ Project is _in progress_.
 ## Room for Improvement
 Room for improvement:
 - adding Subword Tokenization
-- Creating libraries for some of the defined functions
 - calling a 3rd-party API to check that output is correct
 
 To do:
