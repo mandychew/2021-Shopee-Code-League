@@ -41,6 +41,7 @@ Project is _in progress_.
 Room for improvement:
 - adding Subword Tokenization
 - calling a 3rd-party API to check that output is correct
+- output doesn't include correct punctuation (e.g. comma, hyphen, period)
 
 To do:
 - Automating Hyperparameter Tuning
