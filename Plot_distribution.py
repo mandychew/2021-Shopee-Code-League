@@ -1,14 +1,14 @@
-# plotting distribution of length of raw_addresses and of POI
 import collections
 import matplotlib.pyplot as plt
 import re
 
-def plotDistribution(addresses):
-    length_of_addresses = [len(re.split('\s|, |\.|:', address)) for address in addresses]
-    print(length_of_addresses[:5])
-    print(max(length_of_addresses))
-    print(len(addresses))
+# plotting distribution of length of strings
+def plotDistribution(strings):
+    len_of_string = [len(re.split('\s|, |\.|:', string)) for string in strings]
+    print(len_of_string[:5])
+    print(max(len_of_string))
+    print(len(strings))
 
-    A = collections.Counter(length_of_addresses)
+    A = collections.Counter(len_of_string)
     plt.bar(A.keys(), A.values())
     plt.show()
