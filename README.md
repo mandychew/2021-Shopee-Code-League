@@ -47,7 +47,6 @@ To do:
 - Automating Hyperparameter Tuning
 	- using Bayesian Hyperparameter with Hyperopt
 	- or Genetic Algorithm with TPOT
-- Making the program neater
 
 ## Acknowledgements
 - This project was inspired by the [2021 Shopee Code League](https://careers.shopee.sg/codeleague/) (Data Science category)
