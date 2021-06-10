@@ -3,7 +3,7 @@ An AI model to extract key address elements from unformatted Indonesian addresse
 
 ## Table of Contents
 - [General Info](#general-info)
-- [Technologies](#technologies)
+<!-- - [Technologies](#technologies) -->
 - [Features](#features)
 - [Project Status](#project-status)
 - [Room for Improvement](#room-for-improvement)
@@ -17,10 +17,10 @@ However, the addresses Shopee receives are unstructured and in free text format,
 
 For more information, please refer to this [Kaggle page](https://www.kaggle.com/c/scl-2021-ds).
 
-## Technologies
+<!-- ## Technologies
 Project is created with:
 - Python version 3.8.5
-- Tensorflow version 2.4.1
+- Tensorflow version 2.4.1 -->
 
 ## Features
 - Creating binary labels of addresses
@@ -35,15 +35,12 @@ Project is created with:
 	- 2 Dense layers
 
 ## Project Status
-Project is _in progress_.
+In progress
 
 ## Room for Improvement
-Room for improvement:
 - adding Subword Tokenization
 - calling a 3rd-party API to check that output is correct
 - output doesn't include correct punctuation (e.g. comma, hyphen, period)
-
-To do:
 - Automating Hyperparameter Tuning
 	- using Bayesian Hyperparameter with Hyperopt
 	- or Genetic Algorithm with TPOT
