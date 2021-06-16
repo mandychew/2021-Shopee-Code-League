@@ -1,6 +1,7 @@
 import numpy as np
 import pandas as pd
 import re
+import datetime as dt
 import matplotlib.pyplot as plt
 import collections
 import tensorflow as tf
@@ -132,7 +133,12 @@ def plot_graphs(history, string):
   plt.xlabel("Epochs")
   plt.ylabel(string)
   plt.legend([string, 'val_'+string])
-  plt.show()
+
+  dtime = dt.time()
+  now = dt.datetime.now()
+  now.strftime("%Y-%m-%d %H-%M-%S")
+
+  plt.savefig(f'{now}.png')
 
 plot_graphs(history, 'accuracy')
 plot_graphs(history, 'loss')
